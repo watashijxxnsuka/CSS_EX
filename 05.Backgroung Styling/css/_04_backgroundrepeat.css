@@ -1,0 +1,13 @@
+/* background-repeat: 배경에 이미지 반복여부 및 반복표출하는 방향을 설정하는 속성 */
+
+body {
+  background-image: url(../../../images/bit.png);
+  background-repeat: no-repeat;
+}
+/*
+*  repeat: 가로, 세로로 반복 (기본값)
+*  repeat-x: 가로로 반복
+*  repeat-y: 세로로 반복
+*  no repeat: 반복하지 않고 한번만 표출
+*/
+
