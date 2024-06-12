@@ -1,0 +1,12 @@
+/* :nth-child(N) => N 으로 지정된 자식 태그에 스타일을 지정 */
+
+table,td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+/* table 의 자식태그인 tr 태그 중 홀수번째의 tr 에만 스타일 적용*/
+tr:nth-child(2n+1) {
+  background: yellow;
+  color: green;
+}
