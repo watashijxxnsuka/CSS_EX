@@ -1,0 +1,23 @@
+/* transition: 트랜지션 관련 속성을 한번에 지정(property, duration, timing-function, delay)*/
+
+div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  background: orange;
+  /*transition 속성으로 모든 스타일이 바뀔 때 5초동안 애니메이션 효과 유지
+  *  3초 지연된 애니메이션, 일정한 속도로 진행 되도록
+  */
+  transition: all 5S 3s linear;
+}
+
+/* 마우스 커서를 올렸을 때 width: 150px/ height: 150px, border: 5px dotted red, background: green
+*  border-radius: 50%
+*/
+div:hover {
+  width: 150px;
+  height: 150px;
+  border: 5px dotted red;
+  background: green;
+  border-radius: 50%;
+}
